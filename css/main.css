@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family:"Inter", sans-serif !important;
+}
+div, section, footer {
+  height:50px
+}
+header, .jumbo, section {
+  padding: 0 15%;
+
+}
+header {
+  background-color: red;
+}
+.jumbo {
+  background-color: green;
+}
+section:nth-child(odd) {
+  background-color: purple;
+}
+section:nth-child(even) {
+  background-color: brown;
+}
+footer {
+  background-color: #031c4e;
+}
