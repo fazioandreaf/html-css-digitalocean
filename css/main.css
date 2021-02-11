@@ -26,10 +26,34 @@ nav a:hover {
  color: #006aff;
  text-decoration: none;
 }
+.margin-top-bottom {
+  margin: 15px 0px;
+}
+.padding-top-bottom {
+  padding: 15px 0px;
+}
 .jumbo {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
   padding-top: 65px;
+  padding-bottom: 15px;
+}
+
+.white {
+  color: white;
+}
+.google-login {
+  background-color: white;
+  border-radius: 5%;
+}
+.prova-da-non-fare {
+  margin-right: -7%;
+}
+.blue-personalize {
+  color: #006aff;
+}
+h1, h4 {
+  font-weight: bolder !important;
 }
 section:nth-child(odd) {
   background-color: purple;
