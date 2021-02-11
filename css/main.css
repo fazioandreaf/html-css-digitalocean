@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 body {
   font-family:"Inter", sans-serif !important;
 }
-section, footer {
+/* section,*/ footer {
   height:50px
 }
 header, .jumbo, section, nav{
   padding: 0 15%;
 }
 header {
-  background-color: red;
-  height:65px;
-  line-height: 65px;
+  height:75px;
+  line-height: 75px;
+}
+nav {
+  background-color: white;
+}
+nav ul  {
+  margin: 0px;
 }
 nav ul li {
   font-size: 1.2rem;
   text-transform: capitalize;
+  color: #031b4f;
 }
 nav a {
   color: #031b4f;
@@ -30,7 +35,9 @@ nav a:hover {
   margin: 15px 0px;
 }
 .padding-top-bottom {
-  padding: 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
 .jumbo {
   background-image: url(../img/jumbo.svg);
@@ -38,7 +45,6 @@ nav a:hover {
   padding-top: 65px;
   padding-bottom: 15px;
 }
-
 .white {
   color: white;
 }
@@ -54,6 +60,13 @@ nav a:hover {
 }
 h1, h4 {
   font-weight: bolder !important;
+}
+.img-partners {
+  width: 100%;
+  line-height: 100px;
+}
+h6 {
+  color: #5b6987;
 }
 section:nth-child(odd) {
   background-color: purple;
