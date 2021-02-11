@@ -34,7 +34,7 @@ nav a:hover {
 .margin-top-bottom {
   margin: 15px 0px;
 }
-.padding-top-bottom {
+.padding-top-bottom, section {
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -58,21 +58,32 @@ nav a:hover {
 .blue-personalize {
   color: #006aff;
 }
-h1, h4 {
+h1, h2, h4 {
   font-weight: bolder !important;
 }
 .img-partners {
   width: 100%;
   line-height: 100px;
 }
-h6 {
+.colore-testo {
   color: #5b6987;
 }
 section:nth-child(odd) {
-  background-color: purple;
+  background-color: #f3f5f9;
 }
 section:nth-child(even) {
-  background-color: brown;
+  background-color: white;
+}
+section .btn-features {
+  border: inherit ;
+  border-left: 1px solid lightgrey ;
+  border-radius: 0px ;
+}
+section .btn-features:hover,  section .btn-features:focus {
+  border-left: 2px solid darkblue ;
+  background-color: inherit;
+  -webkit-box-shadow: inherit;
+  -webkit-appearance:
 }
 footer {
   background-color: #031c4e;
