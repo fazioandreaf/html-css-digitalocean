@@ -3,18 +3,33 @@
 body {
   font-family:"Inter", sans-serif !important;
 }
-div, section, footer {
+section, footer {
   height:50px
 }
-header, .jumbo, section {
+header, .jumbo, section, nav{
   padding: 0 15%;
-
 }
 header {
   background-color: red;
+  height:65px;
+  line-height: 65px;
+}
+nav ul li {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+nav a {
+  color: #031b4f;
+  text-decoration: none;
+}
+nav a:hover {
+ color: #006aff;
+ text-decoration: none;
 }
 .jumbo {
-  background-color: green;
+  background-image: url(../img/jumbo.svg);
+  background-size: cover;
+  padding-top: 65px;
 }
 section:nth-child(odd) {
   background-color: purple;
