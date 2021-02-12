@@ -10,7 +10,7 @@ header, .jumbo, section, nav, footer{
 }
 header {
   max-height:75px;
-  line-height: 75px;
+  line-height: 55px;
 }
 nav {
   background-color: white;
@@ -33,7 +33,11 @@ nav a {
 }
 nav a:hover {
  color: #006aff;
- text-decoration: none;
+ text-decoration: lightgrey;
+}
+nav .col-xs-1>span {
+  color: #5b6987;
+  border-radius: 100px;
 }
 .margin-top-bottom {
   margin: 15px 0px;
@@ -43,11 +47,35 @@ nav a:hover {
   padding-bottom: 15px;
 
 }
+#p-left {
+  padding-left: 10%;
+}
 .jumbo {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
-  padding-top: 65px;
-  padding-bottom: 15px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.jumbo [class*="col-"] {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 70px 2%;
+}
+@media screen and (max-width:768px) {
+  .jumbo {
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+  .jumbo [class*="col-"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10%;
+    border-radius: 2%;
+    }
+    section .img-partners {
+      width: 60% ;
+    }
+
 }
 .white {
   color: white;
@@ -67,7 +95,10 @@ h1, h2, h4, h5 {
 }
 .img-partners {
   width: 100%;
+}
+.l-h {
   line-height: 100px;
+
 }
 .colore-testo {
   color: #5b6987;
