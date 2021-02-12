@@ -9,11 +9,15 @@ header, .jumbo, section, nav{
   padding: 0 15%;
 }
 header {
-  height:75px;
+  max-height:75px;
   line-height: 75px;
 }
 nav {
   background-color: white;
+}
+.d-i-n {
+  display: inline-block !important;
+  vertical-align: middle !important;
 }
 nav ul  {
   margin: 0px;
@@ -68,11 +72,11 @@ h1, h2, h4, h5 {
 .colore-testo {
   color: #5b6987;
 }
-section:nth-child(odd) {
-  background-color: #f3f5f9;
-}
-section:nth-child(even) {
+section:nth-child(even), .card {
   background-color: white;
+}
+section:nth-child(odd), section:nth-child(6) {
+  background-color: #f3f5f9;
 }
 section .btn-features {
   border: inherit ;
@@ -113,6 +117,9 @@ main section:nth-child(5) ul li a {
 main section:nth-child(5) ul li a:hover {
   color: #1633ff;
   text-decoration: none;
+}
+.card {
+
 }
 footer {
   background-color: #031c4e;
