@@ -15,10 +15,6 @@ header {
 nav {
   background-color: white;
 }
-.d-i-n {
-  display: inline-block !important;
-  vertical-align: middle !important;
-}
 nav ul  {
   margin: 0px;
 }
@@ -47,9 +43,6 @@ nav .col-xs-1>span {
   padding-bottom: 15px;
 
 }
-#p-left {
-  padding-left: 10%;
-}
 .jumbo {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
@@ -75,7 +68,6 @@ nav .col-xs-1>span {
     section .img-partners {
       width: 60% ;
     }
-
 }
 .white {
   color: white;
@@ -148,9 +140,6 @@ main section:nth-child(5) ul li a {
 main section:nth-child(5) ul li a:hover {
   color: #1633ff;
   text-decoration: none;
-}
-.card {
-
 }
 main section:last-child {
   background-color: #0037b0;
