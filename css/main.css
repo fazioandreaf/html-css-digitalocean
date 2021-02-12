@@ -2,10 +2,10 @@
 body {
   font-family:"Inter", sans-serif !important;
 }
-/* section,*/ footer {
+/* section, footer {
   height:50px
-}
-header, .jumbo, section, nav{
+}*/
+header, .jumbo, section, nav, footer{
   padding: 0 15%;
 }
 header {
@@ -38,7 +38,7 @@ nav a:hover {
 .margin-top-bottom {
   margin: 15px 0px;
 }
-.padding-top-bottom, section {
+.padding-top-bottom, section, footer {
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -134,4 +134,24 @@ main section:last-child a:hover {
 }
 footer {
   background-color: #031c4e;
+}
+footer li:first-child {
+  color: white;
+}
+footer li, footer ul {
+  text-transform: capitalize;
+}
+footer li {
+  padding: 5px 0px;
+}
+footer .col-lg-4, footer  a{
+  color: rgba(255, 255, 255, 0.5)
+}
+footer .col-lg-4 a {
+  font-size: 24px;
+  padding: 10px;
+}
+footer .col-lg-4 a:hover {
+  color: white;
+  text-decoration: none;
 }
