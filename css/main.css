@@ -85,6 +85,9 @@ section .btn-features:hover,  section .btn-features:focus {
   -webkit-box-shadow: inherit;
   -webkit-appearance:
 }
+.arrow {
+  font-size: 5rem;
+}
 footer {
   background-color: #031c4e;
 }
