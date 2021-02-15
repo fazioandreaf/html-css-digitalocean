@@ -152,6 +152,13 @@ main section:last-child a:hover {
   color: rgb(0, 105, 255);
   background-color: rgba(225, 225, 225, 0.9);
 }
+.p-r {
+  position: relative;
+}
+.v-a-with-p-a {
+  position: absolute !important;
+  top: 50%;
+}
 footer {
   background-color: #031c4e;
 }
