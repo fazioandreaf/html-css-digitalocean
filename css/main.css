@@ -107,6 +107,22 @@ h1, h2, h3, h4, h5 {
 .b-c-grey {
   background-color: #f3f5f9;
 }
+.circle {
+  display: block;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding:0px;
+}
+.circle:hover, .circle:active{
+  background-color: #337ab7;
+}
+
+.circle li:hover {
+  background-color: blue;
+}
 section .btn-features {
   border: inherit ;
   border-left: 1px solid lightgrey ;
