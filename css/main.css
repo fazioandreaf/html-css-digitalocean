@@ -13,7 +13,7 @@ header {
   line-height: 55px;
 }
 nav {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 nav ul  {
   margin: 0px;
@@ -131,10 +131,8 @@ section .btn-features {
 section .btn-features:hover,  section .btn-features:focus {
   border-left: 2px solid darkblue ;
   background-color: inherit;
-  -webkit-box-shadow: inherit;
-  -webkit-appearance:
 }
-.arrow {
+.arrow {k
   font-size: 5rem;
 }
 main section:nth-child(5) {
@@ -153,8 +151,6 @@ main section:nth-child(5) {
 .ping-country ul li span:first-child{
   display: inline-block;
   width: 15%;
-}
-.ping-country ul li span:last-child{
 }
 .ping-country ul li a {
   color: #00d7d2;
